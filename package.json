@@ -2,23 +2,23 @@
   "name": "coffee-jade-stylus",
   "version": "0.0.1",
   "description": "CLI tool for compiling Coffeescript, Jade and Stylus into Javascript, HTML and CSS.",
-  "main": "lib/build.js",
+  "main": "lib/cjs.js",
   "bin": {
-    "cjs": "lib/build.js"
+    "cjs": "lib/cjs.js"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/connec/coffee-jade-stylus.git"
   },
   "dependencies": {
-    "cli": ">= 0.4.1"
+    "cli": "0.4.x"
   },
   "devDependencies": {
-    "coffee-script": ">= 1.2.0",
-    "jade":          ">= 0.19.0",
-    "nib":           ">= 0.3.1",
-    "squash":        ">= 0.0.10",
-    "stylus":        ">= 0.20.0"
+    "coffee-script": ">= 1.x.x",
+    "jade":          ">= 0.27.x",
+    "nib":           ">= 0.8.x",
+    "squash":        ">= 0.0.11",
+    "stylus":        ">= 0.30.x"
   },
   "license": "WTFPL"
 }
